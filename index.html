@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <!--Ubuntu
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    -->
+
+    <!--Quattrocento
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet
+    -->
+
+    <!--Fleur De leah
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--librarys-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Css Styles and Media files-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+
+    <!--Title-->
+    <title>RuslanaGee - Official site</title>
+</head>
+<body id="body" class="body">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+
+                <div class="menu-btn animate__animated animate__fadeInLeft">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="logo__wrapper">
+                    <a href="#">
+                        <h1 class="logo">RuslanaGee</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu">
+        <div class="navbar">
+            <ul class="navbar nav header__list">
+                <li class="navbar-item"><a href="#info" class="navbar-link">info</a></li>
+                <li class="navbar-item"><a href="#contacts" class="navbar-link">contacts</a></li>
+                <li class="navbar-item"><a href="#gallery" class="navbar-link">gallery</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="section_1" id="gallery">
+                <div class="photo-1">
+                    <p class="photo__data animate__animated animate__fadeInTopLeft wow">24.08.2022</p>
+                    <img src="./img/lana-8.jpg" alt="ruslanagee" class="main-photo animate__animated animate__fadeInLeft wow">
+
+                    <div class="dropdown">
+                        <a href="#" class="btn photo__share dropdown-toggle animate__animated animate__fadeInRight wow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share</a>
+                        <div class="dropdown-menu dropdown__body" aria-labelledby="dropdownMenuLink">
+
+                            <a href="#" class="share__link share__link__2" style="padding-left: 20px;" onclick="myFunction()">
+                                <img src="img/link-icon.svg" alt="link">
+                                <p class="copy-link" id="copy-link"></p>
+                                <p class="copy__alert">share link copied to clipboard</p>
+                            </a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-1 photo-secondary">
+                    <p class="photo__data photo__data animate__animated animate__fadeInTopRight wow">24.08.2022</p>
+                    <img src="img/lana-55.jpg" alt="ruslanagee" class="main-photo animate__animated animate__fadeInLeft wow">
+    
+                    <div class="dropdown">
+                        <a href="#" class="btn photo__share dropdown-toggle animate__animated animate__fadeInRight wow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share</a>
+                        <div class="dropdown-menu dropdown__body" aria-labelledby="dropdownMenuLink">
+    
+                            <a href="#" class="share__link share__link__2" style="padding-left: 20px;" onclick="myFunction()">
+                                <img src="img/link-icon.svg" alt="link">
+                                <p class="copy-link" id="copy-link"></p>
+                                <p class="copy__alert">share link copied to clipboard</p>
+                            </a>
+    
+                                
+                        </div>
+                    </div>
+                </div>
+
+                        <div class="photo-1 photo-secondary">
+                            <p class="photo__data animate__animated animate__fadeInTopLeft wow">24.08.2022</p>
+                            <img src="img/lana-3.jpg" alt="ruslanagee" class="main-photo animate__animated animate__fadeInLeft wow">
+        
+                            <div class="dropdown">
+                                <a href="#" class="btn photo__share dropdown-toggle animate__animated animate__fadeInRight wow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share</a>
+                                <div class="dropdown-menu dropdown__body" aria-labelledby="dropdownMenuLink">
+        
+                                    <a href="#" class="share__link share__link__2" style="padding-left: 20px;" onclick="myFunction()">
+                                        <img src="img/link-icon.svg" alt="link">
+                                        <p class="copy-link" id="copy-link">Sale30%</p>
+                                        <p class="copy__alert">share link copied to clipboard</p>
+                                    </a>
+        
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="photo-1 photo-secondary">
+                                <p class="photo__data animate__animated animate__fadeInTopLeft wow">24.08.2022</p>
+                                <img src="img/lana-4.jpg" alt="ruslanagee" class="main-photo animate__animated animate__fadeInRight wow">
+            
+                                <div class="dropdown">
+                                    <a href="#" class="btn photo__share dropdown-toggle animate__animated animate__fadeInLeft wow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share</a>
+                                    <div class="dropdown-menu dropdown__body" aria-labelledby="dropdownMenuLink">
+            
+                                        <a href="#" class="share__link share__link__2" style="padding-left: 20px;" onclick="myFunction()">
+                                            <img src="img/link-icon.svg" alt="link">
+                                            <p class="copy-link" id="copy-link">Sale30%</p>
+                                            <p class="copy__alert">share link copied to clipboard</p>
+                                        </a>
+            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="photo-1 photo-secondary last-photo">
+                                    <p class="photo__data animate__animated animate__fadeInTopRight wow">24.08.2022</p>
+                                    <img src="img/lana-5.JPG" alt="ruslanagee" class="main-photo main-photo animate__animated animate__fadeInLeft wow">
+                
+                                    <div class="dropdown">
+                                        <a href="#" class="btn photo__share dropdown-toggle animate__animated animate__fadeInRight wow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Share</a>
+                                        <div class="dropdown-menu dropdown__body" aria-labelledby="dropdownMenuLink">
+                
+                                            <a href="#" class="share__link share__link__2" style="padding-left: 20px;" onclick="myFunction()">
+                                                <img src="img/link-icon.svg" alt="link">
+                                                <p class="copy-link" id="copy-link">Sale30%</p>
+                                                <p class="copy__alert">share link copied to clipboard</p>
+                                            </a>
+                
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                </div>
+            </div>
+            <div class="section-2" id="info">
+                <div class="container">
+                        <div class="section-2__wrapper">
+                            <h1 class="section-2__h1 animate__animated animate__fadeInDown wow">Information</h1>
+                            <div class="section-2__main">
+                                <div class="section-2__image">
+                                    <img src="img/Ruslana11.jpg" alt="RuslanaGee" class="animate__animated animate__fadeInLeft wow">
+                                </div>
+
+                                <div class="section-2__text">
+                                    <p class="animate__animated animate__fadeInRight wow">ORIGINALLY FROM AZERBAIJAN AND CURRENTLY BASED IN LOS ANGELES, RUSLANA IS ONE OF THE MOST POPULAR RUSSIAN-SPEAKING SOCIAL MEDIA STARS. WELL KNOWN AS A FASHION & BEAUTY INFLUENCER WITH CLIENTELE INCLUDING APM MONACO, BEBE, COLOURPOP, FURLA, NORDSTROM, OUAI, REVOLVE, AND OTHERS, HER INSTAGRAM ACCOUNT BOASTS MORE THAN 900K FOLLOWERS WHILE HER RUSSIAN-SPEAKING YOUTUBE CHANNEL HAS MORE THAN 1.4M SUBSCRIBERS. LAST YEAR, RUSLANA WROTE, CO-PRODUCED, AND CO-STARRED IN A 5-PART SCRIPTED YOUTUBE SERIES ON HER (RUSSIAN) CHANNEL CALLED “AMERICAN TEENS.” THE SERIES HAS MORE THAN 8M VIEWS. THIS YEAR, RUSLANA LAUNCHED HER ENGLISH-SPEAKING CHANNEL WITH THE VIRAL HIT “ARIANA GRANDE LOOK-A-LIKE PRANKS LA.” THE VIDEO REACHED 10M VIEWS WITHIN THE FIRST MONTH OF AIRING. RUSLANA SPEAKS 3 OTHER LANGUAGES, INCLUDING AZERI, TURKISH, AND JAPANESE.</p>
+                                    <ul class="section-2__ul">
+                                        <li class="section-2__li animate__animated animate__fadeInLeft wow">HEIGHT: 5'4</li>
+                                        <li class="section-2__li animate__animated animate__fadeInRight wow">DRESS: 0-2</li>
+                                        <li class="section-2__li animate__animated animate__fadeInLeft wow">HAIR: BROWN</li>
+                                        <li class="section-2__li animate__animated animate__fadeInRight wow">EYES: BROWN</li>
+                                    </ul>
+
+                                    <div class="section-2__socia-medias" id="contacts">
+                                        <a href="https://www.instagram.com/ruslanagee/" ><img src="img/instagram-logo.svg" alt="instagramm"></a>
+                                        <a href="https://t.me/ruslanagee8"><img src="img/Telegram_logo.svg" alt="telegramm"></a>
+                                        <a href="https://www.youtube.com/channel/UCGMv4W8LFvukJs_DrHj8R8Q"><img src="img/YouTube_social_white_squircle.svg" alt="Youtube"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="section-3">
+                <div class="container">
+                    <div class="video-1 animate__animated animate__fadeInLeft">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Km4NTBlUUss" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="video-2">
+                        <div class="embed-responsive embed-responsive-16by9 animate__animated animate__fadeInRight">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IYIKxTivrYc" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="video-3">
+                        <div class="embed-responsive embed-responsive-16by9 animate__animated animate__fadeInLeft">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KCm3IscwDiE" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="footer-text">
+                <p>copyright © All rights reserved</p>
+                <p>Dev: Yashar Qurbanov (instagram: @wxx.gtd)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+  
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('player', {
+            height: '360',
+            width: '640',
+            videoId: 'YLkhw5jvKeY&t',
+            events: {
+              'onReady': onPlayerReady,
+              'onStateChange': onPlayerStateChange
+            }
+          });
+        }
+  
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+          event.target.playVideo();
+        }
+  
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        var done = false;
+        function onPlayerStateChange(event) {
+          if (event.data == YT.PlayerState.PLAYING && !done) {
+            setTimeout(stopVideo, 6000);
+            done = true;
+          }
+        }
+        function stopVideo() {
+          player.stopVideo();
+        }
+      </script>
+</body>
+</html>
